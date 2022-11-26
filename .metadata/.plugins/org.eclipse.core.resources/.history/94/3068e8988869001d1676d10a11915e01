@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_yqlrQGkPEe2VVb0bbDysUA" name="project">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_ywgtEGkPEe2VVb0bbDysUA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_OYTRYGlxEe2ReLQuO4oOdg" name="FREIGHT MANAGEMENT SYSTEM">
+    <packagedElement xmi:type="uml:Class" xmi:id="_0aZIcGlxEe2ReLQuO4oOdg" name="Login"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4bBsUGlxEe2ReLQuO4oOdg" name="Port"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6IsvEGlxEe2ReLQuO4oOdg" name="Ships">
+      <generalization xmi:type="uml:Generalization" xmi:id="_uP7FEGmDEe2ReLQuO4oOdg" general="_4bBsUGlxEe2ReLQuO4oOdg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_71-wQGlxEe2ReLQuO4oOdg" name="Customer">
+      <generalization xmi:type="uml:Generalization" xmi:id="_jEBNUGmDEe2ReLQuO4oOdg" general="_0aZIcGlxEe2ReLQuO4oOdg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Odsx8Gl1Ee2ReLQuO4oOdg" name="Order">
+      <generalization xmi:type="uml:Generalization" xmi:id="_ksKP0GmDEe2ReLQuO4oOdg" general="_71-wQGlxEe2ReLQuO4oOdg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RD9pkGl1Ee2ReLQuO4oOdg" name="Payment">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lnBVkGmDEe2ReLQuO4oOdg" general="_Odsx8Gl1Ee2ReLQuO4oOdg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VPrcEGl1Ee2ReLQuO4oOdg" name="Cash">
+      <generalization xmi:type="uml:Generalization" xmi:id="_nSXdEGmDEe2ReLQuO4oOdg" general="_RD9pkGl1Ee2ReLQuO4oOdg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Wk_pMGl1Ee2ReLQuO4oOdg" name="Credit">
+      <generalization xmi:type="uml:Generalization" xmi:id="_mkV5cGmDEe2ReLQuO4oOdg" general="_RD9pkGl1Ee2ReLQuO4oOdg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_w1ADMGl-Ee2ReLQuO4oOdg" name="Container">
+      <generalization xmi:type="uml:Generalization" xmi:id="_w6TAoGmDEe2ReLQuO4oOdg" general="_6IsvEGlxEe2ReLQuO4oOdg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8FkYgGl-Ee2ReLQuO4oOdg" name="Stock">
+      <generalization xmi:type="uml:Generalization" xmi:id="_21B5sGmDEe2ReLQuO4oOdg" general="_w1ADMGl-Ee2ReLQuO4oOdg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_9rAFQGl-Ee2ReLQuO4oOdg" name="Account">
+      <generalization xmi:type="uml:Generalization" xmi:id="_x9rwQGmDEe2ReLQuO4oOdg" general="_w1ADMGl-Ee2ReLQuO4oOdg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="__aOnMGl-Ee2ReLQuO4oOdg" name="Admin">
+      <generalization xmi:type="uml:Generalization" xmi:id="_f_wVoGmEEe2ReLQuO4oOdg" general="_0aZIcGlxEe2ReLQuO4oOdg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_pX37kGmEEe2ReLQuO4oOdg" general="_9rAFQGl-Ee2ReLQuO4oOdg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_xVFCsGmEEe2ReLQuO4oOdg" general="_8FkYgGl-Ee2ReLQuO4oOdg"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
