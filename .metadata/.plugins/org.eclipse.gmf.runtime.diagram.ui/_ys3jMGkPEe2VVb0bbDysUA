@@ -1,10 +1,10 @@
-#Thu Nov 24 00:12:02 PKT 2022
+#Sat Nov 26 21:36:18 PKT 2022
 print.useInches=true
 rulergrid.rulerunit=2
 print.margin.left=0.5
 viewport.x=357
 rulergrid.gridlinestyle=6
-viewport.y=455
+viewport.y=180
 zoom=0.75
 print.usePortrait=true
 print.page.height=11.0
