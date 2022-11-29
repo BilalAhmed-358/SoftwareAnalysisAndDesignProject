@@ -55,7 +55,6 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_NtR7YGpWEe2Du-QXjwATCQ" name="portName">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_i0atMGpWEe2Du-QXjwATCQ" name="getNoOfShips"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_6IsvEGlxEe2ReLQuO4oOdg" name="Ships">
       <generalization xmi:type="uml:Generalization" xmi:id="_uP7FEGmDEe2ReLQuO4oOdg" general="_4bBsUGlxEe2ReLQuO4oOdg"/>
@@ -155,7 +154,7 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_C0PfEGnDEe2ReLQuO4oOdg" name="cardNo">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_GBhTYGnDEe2ReLQuO4oOdg" name="backNo">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GBhTYGnDEe2ReLQuO4oOdg" name="CCNo">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_U_xbYGnDEe2ReLQuO4oOdg" name="payAuthorized"/>
