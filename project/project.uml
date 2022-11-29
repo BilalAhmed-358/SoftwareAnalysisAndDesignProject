@@ -123,6 +123,7 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_VbL8IGmvEe2ReLQuO4oOdg" name="updateOrder"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_NoqJwG_rEe2QcPcKjyQHXA" name="AddOrder"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_RD9pkGl1Ee2ReLQuO4oOdg" name="Payment">
       <generalization xmi:type="uml:Generalization" xmi:id="_lnBVkGmDEe2ReLQuO4oOdg" general="_Odsx8Gl1Ee2ReLQuO4oOdg"/>
