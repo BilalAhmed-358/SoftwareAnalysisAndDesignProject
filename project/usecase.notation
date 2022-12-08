@@ -556,7 +556,7 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_sapw8W_jEe2QcPcKjyQHXA"/>
     <element xmi:type="uml:Association" href="usecase.uml#_saoi0G_jEe2QcPcKjyQHXA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sapw8m_jEe2QcPcKjyQHXA" points="[720, 200, -643984, -643984]$[1320, 400, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sa_IIG_jEe2QcPcKjyQHXA" id="(1.0,0.4878048780487805)"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sa_IIG_jEe2QcPcKjyQHXA" id="(0.8264462809917356,0.926829268292683)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sa_IIW_jEe2QcPcKjyQHXA" id="(0.0,0.5374280230326296)"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_KTdP4G_oEe2QcPcKjyQHXA" type="Association_Edge" source="_6e1vUG_hEe2QcPcKjyQHXA" target="_RMWwcG_fEe2QcPcKjyQHXA">
