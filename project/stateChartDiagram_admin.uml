@@ -3,7 +3,7 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_PF0OoHSpEe21Af0Auk3ZlA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:StateMachine" xmi:id="_S2bBYHc5Ee28K58gH1gFBQ" name="Admin Login">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_S2bBYHc5Ee28K58gH1gFBQ" name="Admin State Diagram">
     <region xmi:type="uml:Region" xmi:id="_THPEkHc5Ee28K58gH1gFBQ" name="No">
       <transition xmi:type="uml:Transition" xmi:id="_3NLYAHc5Ee28K58gH1gFBQ" source="_mj7t0Hc5Ee28K58gH1gFBQ" target="_uxkdoHc5Ee28K58gH1gFBQ"/>
       <transition xmi:type="uml:Transition" xmi:id="_tlgx0HdHEe2IRMCSIydKyQ" source="_uxkdoHc5Ee28K58gH1gFBQ" target="_qZI8cHdHEe2IRMCSIydKyQ"/>
@@ -24,9 +24,20 @@
       </subvertex>
       <subvertex xmi:type="uml:Pseudostate" xmi:id="_qZI8cHdHEe2IRMCSIydKyQ" name="Valid credentials" kind="choice"/>
       <subvertex xmi:type="uml:Pseudostate" xmi:id="_xvh7MHdHEe2IRMCSIydKyQ" name="Yes" kind="choice"/>
-      <subvertex xmi:type="uml:State" xmi:id="_X4EYgHdIEe2IRMCSIydKyQ" name="Adding/Updating/Deleting/Ports"/>
-      <subvertex xmi:type="uml:State" xmi:id="_ed4O4HdIEe2IRMCSIydKyQ" name="Adding/Updating/Deleting Ships"/>
-      <subvertex xmi:type="uml:State" xmi:id="_mAazQHdIEe2IRMCSIydKyQ" name="Adding/Updating/Deleting Containrs"/>
+      <subvertex xmi:type="uml:State" xmi:id="_X4EYgHdIEe2IRMCSIydKyQ" name="Adding/Updating/Deleting/Ports">
+        <doActivity xmi:type="uml:Activity" xmi:id="__CJ88HdJEe20Eu7J6R45GQ" name="Modifying ports data in the table"/>
+        <entry xmi:type="uml:Activity" xmi:id="_5NWFsHdJEe20Eu7J6R45GQ" name="New changes to be made in the database elements"/>
+        <exit xmi:type="uml:Activity" xmi:id="_7ZkssHdJEe20Eu7J6R45GQ" name="Changes made and saved in database elements"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_ed4O4HdIEe2IRMCSIydKyQ" name="Adding/Updating/Deleting Ships">
+        <doActivity xmi:type="uml:Activity" xmi:id="_H6JRUHdKEe20Eu7J6R45GQ" name="Modifying Data of ships table"/>
+        <entry xmi:type="uml:Activity" xmi:id="_CjXZ4HdKEe20Eu7J6R45GQ" name="New changes to be made in ships table of the database"/>
+        <exit xmi:type="uml:Activity" xmi:id="_Dt6hcHdKEe20Eu7J6R45GQ" name="New changes to made in ships table of the database"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_mAazQHdIEe2IRMCSIydKyQ" name="Adding/Updating/Deleting Containrs">
+        <entry xmi:type="uml:Activity" xmi:id="_M0tt4HdKEe20Eu7J6R45GQ" name="New changes to be made in containers table of the database"/>
+        <exit xmi:type="uml:Activity" xmi:id="_OI0aEHdKEe20Eu7J6R45GQ" name="New changes to made in containers table of the database"/>
+      </subvertex>
       <subvertex xmi:type="uml:Pseudostate" xmi:id="_uM9W4HdIEe2IRMCSIydKyQ" name="Perform more functions?" kind="choice"/>
       <subvertex xmi:type="uml:FinalState" xmi:id="_DqczMHdJEe2IRMCSIydKyQ" name="FinalState20"/>
     </region>
